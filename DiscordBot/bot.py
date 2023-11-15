@@ -1,6 +1,5 @@
 # Importa a biblioteca pycord
-import discord
-
+import discord 
 # Cria uma instancia de discord.Bot 
 bot = discord.Bot()
 
