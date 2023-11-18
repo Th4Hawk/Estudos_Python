@@ -34,4 +34,10 @@ A palavra-chave await é usada para esperar que outra corrotina seja concluída 
 
 As funções assíncronas podem chamar funções assíncronas e não assíncronas, porem, funções não assíncronas não podem chamar diretamente funções assíncronas, por isso usamos o `await`
 
+### Util
+
+1 - `asyncio.run()`
+
+O asyncio.run configura e executa um programa de forma assíncrona.
+
 

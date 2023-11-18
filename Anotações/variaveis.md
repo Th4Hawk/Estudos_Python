@@ -41,4 +41,39 @@ oi()
 print(variavel_global)
 ```
 
+### Manipulando strings
 
+```py
+nome = "Banana"
+# Deixa a string com letras maiúsculas
+print(nome.upper())
+# Deixa a string com letras minúsculas
+print(nome.lower())
+```
+
+### Regras importantes
+
+1 - Não é permitido que nomes de variaveis tenham espaço. Exemplo:
+
+```py
+# Permitido
+nome_legal = "dog"
+# Não é permitido
+nome legal = "dog"
+```
+
+2 - Não é permitido que nomes de variaveis comecem com numeros. Exemplo:
+
+```py
+# É permitido
+variavel_1 = 1
+# Não é permitido
+1_variavel = 1
+```
+
+3 - Não é permitido usar palavras reservadas do python como nome de variavel. Exemplo:
+
+```py
+# Não é permitido
+print = "a"
+```
