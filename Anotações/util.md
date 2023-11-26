@@ -18,3 +18,10 @@ print(nome.lstrip())
 # Remove o espaço em branco dos dois lados
 print(nome.strip())
 ```
+
+Representa valores que não são strings como string
+```py
+dia = 10
+# A função str() é chamada para representar o inteiro como uma string
+print("Hoje é dia " + str(dia))
+```
